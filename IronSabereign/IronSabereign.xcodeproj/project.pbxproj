@@ -1,0 +1,1145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7CE6B82F510EFA00A967A4 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CE6B42F510EFA00A967A4 /* ExerciseData.json */; };
+		6C7CE6B92F510EFA00A967A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A92F510EFA00A967A4 /* Assets.xcassets */; };
+		6C7CE6BA2F510EFA00A967A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6812F510EFA00A967A4 /* Extensions.swift */; };
+		6C7CE6BB2F510EFA00A967A4 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6982F510EFA00A967A4 /* OnboardingViewModel.swift */; };
+		6C7CE6BC2F510EFA00A967A4 /* IronTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68D2F510EFA00A967A4 /* IronTheme.swift */; };
+		6C7CE6BD2F510EFA00A967A4 /* AdaptiveAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66A2F510EFA00A967A4 /* AdaptiveAdjuster.swift */; };
+		6C7CE6BE2F510EFA00A967A4 /* ExerciseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A22F510EFA00A967A4 /* ExerciseCardView.swift */; };
+		6C7CE6BF2F510EFA00A967A4 /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A52F510EFA00A967A4 /* WorkoutSessionView.swift */; };
+		6C7CE6C02F510EFA00A967A4 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6952F510EFA00A967A4 /* DashboardViewModel.swift */; };
+		6C7CE6C12F510EFA00A967A4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69F2F510EFA00A967A4 /* SettingsView.swift */; };
+		6C7CE6C22F510EFA00A967A4 /* SetCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A42F510EFA00A967A4 /* SetCompletionView.swift */; };
+		6C7CE6C32F510EFA00A967A4 /* GlowingDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6882F510EFA00A967A4 /* GlowingDivider.swift */; };
+		6C7CE6C42F510EFA00A967A4 /* SovereignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68A2F510EFA00A967A4 /* SovereignButton.swift */; };
+		6C7CE6C52F510EFA00A967A4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6752F510EFA00A967A4 /* UserProfile.swift */; };
+		6C7CE6C62F510EFA00A967A4 /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6792F510EFA00A967A4 /* ProfileRepository.swift */; };
+		6C7CE6C72F510EFA00A967A4 /* RuneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6892F510EFA00A967A4 /* RuneCard.swift */; };
+		6C7CE6C82F510EFA00A967A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68C2F510EFA00A967A4 /* Colors.swift */; };
+		6C7CE6C92F510EFA00A967A4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AC2F510EFA00A967A4 /* Item.swift */; };
+		6C7CE6CA2F510EFA00A967A4 /* PlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66D2F510EFA00A967A4 /* PlanGenerator.swift */; };
+		6C7CE6CB2F510EFA00A967A4 /* IronSabereignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AB2F510EFA00A967A4 /* IronSabereignApp.swift */; };
+		6C7CE6CC2F510EFA00A967A4 /* ExerciseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69B2F510EFA00A967A4 /* ExerciseChartView.swift */; };
+		6C7CE6CD2F510EFA00A967A4 /* BodyweightChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69A2F510EFA00A967A4 /* BodyweightChartView.swift */; };
+		6C7CE6CE2F510EFA00A967A4 /* ProgressDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69C2F510EFA00A967A4 /* ProgressDashboardView.swift */; };
+		6C7CE6CF2F510EFA00A967A4 /* RuleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66E2F510EFA00A967A4 /* RuleEngine.swift */; };
+		6C7CE6D02F510EFA00A967A4 /* ForgeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6872F510EFA00A967A4 /* ForgeBanner.swift */; };
+		6C7CE6D12F510EFA00A967A4 /* CardioPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66B2F510EFA00A967A4 /* CardioPlanner.swift */; };
+		6C7CE6D32F510EFA00A967A4 /* RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A32F510EFA00A967A4 /* RestTimerView.swift */; };
+		6C7CE6D42F510EFA00A967A4 /* ProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67F2F510EFA00A967A4 /* ProgressCalculator.swift */; };
+		6C7CE6D52F510EFA00A967A4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6972F510EFA00A967A4 /* OnboardingView.swift */; };
+		6C7CE6D62F510EFA00A967A4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6942F510EFA00A967A4 /* DashboardView.swift */; };
+		6C7CE6D82F510EFA00A967A4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6712F510EFA00A967A4 /* Enums.swift */; };
+		6C7CE6D92F510EFA00A967A4 /* WorkoutPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6762F510EFA00A967A4 /* WorkoutPlan.swift */; };
+		6C7CE6DA2F510EFA00A967A4 /* WorkoutRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67B2F510EFA00A967A4 /* WorkoutRepository.swift */; };
+		6C7CE6DB2F510EFA00A967A4 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68E2F510EFA00A967A4 /* Typography.swift */; };
+		6C7CE6DC2F510EFA00A967A4 /* CompletionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6832F510EFA00A967A4 /* CompletionAnimation.swift */; };
+		6C7CE6DD2F510EFA00A967A4 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6772F510EFA00A967A4 /* WorkoutSession.swift */; };
+		6C7CE6DE2F510EFA00A967A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AA2F510EFA00A967A4 /* ContentView.swift */; };
+		6C7CE6DF2F510EFA00A967A4 /* IronSovereignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6682F510EFA00A967A4 /* IronSovereignApp.swift */; };
+		6C7CE6E02F510EFA00A967A4 /* ProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67A2F510EFA00A967A4 /* ProgressRepository.swift */; };
+		6C7CE6E12F510EFA00A967A4 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69D2F510EFA00A967A4 /* ProgressViewModel.swift */; };
+		6C7CE6E22F510EFA00A967A4 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A62F510EFA00A967A4 /* WorkoutViewModel.swift */; };
+		6C7CE6E42F510EFA00A967A4 /* CardioSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6912F510EFA00A967A4 /* CardioSessionView.swift */; };
+		6C7CE6E52F510EFA00A967A4 /* ExerciseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66C2F510EFA00A967A4 /* ExerciseDatabase.swift */; };
+		6C7CE6E62F510EFA00A967A4 /* TransitionEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6842F510EFA00A967A4 /* TransitionEffects.swift */; };
+		6C7CE6E72F510EFA00A967A4 /* ExerciseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6732F510EFA00A967A4 /* ExerciseSet.swift */; };
+		6C7CE6E82F510EFA00A967A4 /* EmberProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6862F510EFA00A967A4 /* EmberProgressBar.swift */; };
+		6C7CE6E92F510EFA00A967A4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A02F510EFA00A967A4 /* SettingsViewModel.swift */; };
+		6C7CE6EA2F510EFA00A967A4 /* CardioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6702F510EFA00A967A4 /* CardioSession.swift */; };
+		6C7CE6EB2F510EFA00A967A4 /* ProgressRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6742F510EFA00A967A4 /* ProgressRecord.swift */; };
+		6C7CE6EC2F510EFA00A967A4 /* ClaudeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67D2F510EFA00A967A4 /* ClaudeAPIService.swift */; };
+		6C7CE6ED2F510EFA00A967A4 /* CardioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6922F510EFA00A967A4 /* CardioViewModel.swift */; };
+		6C7CE6EE2F510EFA00A967A4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6672F510EFA00A967A4 /* AppState.swift */; };
+		6C7CE6EF2F510EFA00A967A4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6722F510EFA00A967A4 /* Exercise.swift */; };
+		6C7CE6F02F510EFA00A967A4 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67E2F510EFA00A967A4 /* NetworkMonitor.swift */; };
+		6C7CE6F12F510EFA00A967A4 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CE6B42F510EFA00A967A4 /* ExerciseData.json */; };
+		6C7CE6F22F510EFA00A967A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A92F510EFA00A967A4 /* Assets.xcassets */; };
+		6C7CE6F32F510EFA00A967A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6812F510EFA00A967A4 /* Extensions.swift */; };
+		6C7CE6F42F510EFA00A967A4 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6982F510EFA00A967A4 /* OnboardingViewModel.swift */; };
+		6C7CE6F52F510EFA00A967A4 /* IronTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68D2F510EFA00A967A4 /* IronTheme.swift */; };
+		6C7CE6F62F510EFA00A967A4 /* AdaptiveAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66A2F510EFA00A967A4 /* AdaptiveAdjuster.swift */; };
+		6C7CE6F72F510EFA00A967A4 /* ExerciseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A22F510EFA00A967A4 /* ExerciseCardView.swift */; };
+		6C7CE6F82F510EFA00A967A4 /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A52F510EFA00A967A4 /* WorkoutSessionView.swift */; };
+		6C7CE6F92F510EFA00A967A4 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6952F510EFA00A967A4 /* DashboardViewModel.swift */; };
+		6C7CE6FA2F510EFA00A967A4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69F2F510EFA00A967A4 /* SettingsView.swift */; };
+		6C7CE6FB2F510EFA00A967A4 /* SetCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A42F510EFA00A967A4 /* SetCompletionView.swift */; };
+		6C7CE6FC2F510EFA00A967A4 /* GlowingDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6882F510EFA00A967A4 /* GlowingDivider.swift */; };
+		6C7CE6FD2F510EFA00A967A4 /* SovereignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68A2F510EFA00A967A4 /* SovereignButton.swift */; };
+		6C7CE6FE2F510EFA00A967A4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6752F510EFA00A967A4 /* UserProfile.swift */; };
+		6C7CE6FF2F510EFA00A967A4 /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6792F510EFA00A967A4 /* ProfileRepository.swift */; };
+		6C7CE7002F510EFA00A967A4 /* RuneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6892F510EFA00A967A4 /* RuneCard.swift */; };
+		6C7CE7012F510EFA00A967A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68C2F510EFA00A967A4 /* Colors.swift */; };
+		6C7CE7022F510EFA00A967A4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AC2F510EFA00A967A4 /* Item.swift */; };
+		6C7CE7032F510EFA00A967A4 /* PlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66D2F510EFA00A967A4 /* PlanGenerator.swift */; };
+		6C7CE7042F510EFA00A967A4 /* IronSabereignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AB2F510EFA00A967A4 /* IronSabereignApp.swift */; };
+		6C7CE7052F510EFA00A967A4 /* ExerciseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69B2F510EFA00A967A4 /* ExerciseChartView.swift */; };
+		6C7CE7062F510EFA00A967A4 /* BodyweightChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69A2F510EFA00A967A4 /* BodyweightChartView.swift */; };
+		6C7CE7072F510EFA00A967A4 /* ProgressDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69C2F510EFA00A967A4 /* ProgressDashboardView.swift */; };
+		6C7CE7082F510EFA00A967A4 /* RuleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66E2F510EFA00A967A4 /* RuleEngine.swift */; };
+		6C7CE7092F510EFA00A967A4 /* ForgeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6872F510EFA00A967A4 /* ForgeBanner.swift */; };
+		6C7CE70A2F510EFA00A967A4 /* CardioPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66B2F510EFA00A967A4 /* CardioPlanner.swift */; };
+		6C7CE70C2F510EFA00A967A4 /* RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A32F510EFA00A967A4 /* RestTimerView.swift */; };
+		6C7CE70D2F510EFA00A967A4 /* ProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67F2F510EFA00A967A4 /* ProgressCalculator.swift */; };
+		6C7CE70E2F510EFA00A967A4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6972F510EFA00A967A4 /* OnboardingView.swift */; };
+		6C7CE70F2F510EFA00A967A4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6942F510EFA00A967A4 /* DashboardView.swift */; };
+		6C7CE7112F510EFA00A967A4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6712F510EFA00A967A4 /* Enums.swift */; };
+		6C7CE7122F510EFA00A967A4 /* WorkoutPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6762F510EFA00A967A4 /* WorkoutPlan.swift */; };
+		6C7CE7132F510EFA00A967A4 /* WorkoutRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67B2F510EFA00A967A4 /* WorkoutRepository.swift */; };
+		6C7CE7142F510EFA00A967A4 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68E2F510EFA00A967A4 /* Typography.swift */; };
+		6C7CE7152F510EFA00A967A4 /* CompletionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6832F510EFA00A967A4 /* CompletionAnimation.swift */; };
+		6C7CE7162F510EFA00A967A4 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6772F510EFA00A967A4 /* WorkoutSession.swift */; };
+		6C7CE7172F510EFA00A967A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AA2F510EFA00A967A4 /* ContentView.swift */; };
+		6C7CE7182F510EFA00A967A4 /* IronSovereignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6682F510EFA00A967A4 /* IronSovereignApp.swift */; };
+		6C7CE7192F510EFA00A967A4 /* ProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67A2F510EFA00A967A4 /* ProgressRepository.swift */; };
+		6C7CE71A2F510EFA00A967A4 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69D2F510EFA00A967A4 /* ProgressViewModel.swift */; };
+		6C7CE71B2F510EFA00A967A4 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A62F510EFA00A967A4 /* WorkoutViewModel.swift */; };
+		6C7CE71D2F510EFA00A967A4 /* CardioSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6912F510EFA00A967A4 /* CardioSessionView.swift */; };
+		6C7CE71E2F510EFA00A967A4 /* ExerciseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66C2F510EFA00A967A4 /* ExerciseDatabase.swift */; };
+		6C7CE71F2F510EFA00A967A4 /* TransitionEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6842F510EFA00A967A4 /* TransitionEffects.swift */; };
+		6C7CE7202F510EFA00A967A4 /* ExerciseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6732F510EFA00A967A4 /* ExerciseSet.swift */; };
+		6C7CE7212F510EFA00A967A4 /* EmberProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6862F510EFA00A967A4 /* EmberProgressBar.swift */; };
+		6C7CE7222F510EFA00A967A4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A02F510EFA00A967A4 /* SettingsViewModel.swift */; };
+		6C7CE7232F510EFA00A967A4 /* CardioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6702F510EFA00A967A4 /* CardioSession.swift */; };
+		6C7CE7242F510EFA00A967A4 /* ProgressRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6742F510EFA00A967A4 /* ProgressRecord.swift */; };
+		6C7CE7252F510EFA00A967A4 /* ClaudeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67D2F510EFA00A967A4 /* ClaudeAPIService.swift */; };
+		6C7CE7262F510EFA00A967A4 /* CardioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6922F510EFA00A967A4 /* CardioViewModel.swift */; };
+		6C7CE7272F510EFA00A967A4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6672F510EFA00A967A4 /* AppState.swift */; };
+		6C7CE7282F510EFA00A967A4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6722F510EFA00A967A4 /* Exercise.swift */; };
+		6C7CE7292F510EFA00A967A4 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67E2F510EFA00A967A4 /* NetworkMonitor.swift */; };
+		6C7CE72A2F510EFA00A967A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6812F510EFA00A967A4 /* Extensions.swift */; };
+		6C7CE72B2F510EFA00A967A4 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6982F510EFA00A967A4 /* OnboardingViewModel.swift */; };
+		6C7CE72C2F510EFA00A967A4 /* IronTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68D2F510EFA00A967A4 /* IronTheme.swift */; };
+		6C7CE72D2F510EFA00A967A4 /* AdaptiveAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66A2F510EFA00A967A4 /* AdaptiveAdjuster.swift */; };
+		6C7CE72E2F510EFA00A967A4 /* ExerciseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A22F510EFA00A967A4 /* ExerciseCardView.swift */; };
+		6C7CE72F2F510EFA00A967A4 /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A52F510EFA00A967A4 /* WorkoutSessionView.swift */; };
+		6C7CE7302F510EFA00A967A4 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6952F510EFA00A967A4 /* DashboardViewModel.swift */; };
+		6C7CE7312F510EFA00A967A4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69F2F510EFA00A967A4 /* SettingsView.swift */; };
+		6C7CE7322F510EFA00A967A4 /* SetCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A42F510EFA00A967A4 /* SetCompletionView.swift */; };
+		6C7CE7332F510EFA00A967A4 /* GlowingDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6882F510EFA00A967A4 /* GlowingDivider.swift */; };
+		6C7CE7342F510EFA00A967A4 /* SovereignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68A2F510EFA00A967A4 /* SovereignButton.swift */; };
+		6C7CE7352F510EFA00A967A4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6752F510EFA00A967A4 /* UserProfile.swift */; };
+		6C7CE7362F510EFA00A967A4 /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6792F510EFA00A967A4 /* ProfileRepository.swift */; };
+		6C7CE7372F510EFA00A967A4 /* RuneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6892F510EFA00A967A4 /* RuneCard.swift */; };
+		6C7CE7382F510EFA00A967A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68C2F510EFA00A967A4 /* Colors.swift */; };
+		6C7CE7392F510EFA00A967A4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AC2F510EFA00A967A4 /* Item.swift */; };
+		6C7CE73A2F510EFA00A967A4 /* PlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66D2F510EFA00A967A4 /* PlanGenerator.swift */; };
+		6C7CE73B2F510EFA00A967A4 /* IronSabereignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AB2F510EFA00A967A4 /* IronSabereignApp.swift */; };
+		6C7CE73C2F510EFA00A967A4 /* ExerciseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69B2F510EFA00A967A4 /* ExerciseChartView.swift */; };
+		6C7CE73D2F510EFA00A967A4 /* BodyweightChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69A2F510EFA00A967A4 /* BodyweightChartView.swift */; };
+		6C7CE73E2F510EFA00A967A4 /* ProgressDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69C2F510EFA00A967A4 /* ProgressDashboardView.swift */; };
+		6C7CE73F2F510EFA00A967A4 /* RuleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66E2F510EFA00A967A4 /* RuleEngine.swift */; };
+		6C7CE7402F510EFA00A967A4 /* ForgeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6872F510EFA00A967A4 /* ForgeBanner.swift */; };
+		6C7CE7412F510EFA00A967A4 /* CardioPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66B2F510EFA00A967A4 /* CardioPlanner.swift */; };
+		6C7CE7432F510EFA00A967A4 /* RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A32F510EFA00A967A4 /* RestTimerView.swift */; };
+		6C7CE7442F510EFA00A967A4 /* ProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67F2F510EFA00A967A4 /* ProgressCalculator.swift */; };
+		6C7CE7452F510EFA00A967A4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6972F510EFA00A967A4 /* OnboardingView.swift */; };
+		6C7CE7462F510EFA00A967A4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6942F510EFA00A967A4 /* DashboardView.swift */; };
+		6C7CE7482F510EFA00A967A4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6712F510EFA00A967A4 /* Enums.swift */; };
+		6C7CE7492F510EFA00A967A4 /* WorkoutPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6762F510EFA00A967A4 /* WorkoutPlan.swift */; };
+		6C7CE74A2F510EFA00A967A4 /* WorkoutRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67B2F510EFA00A967A4 /* WorkoutRepository.swift */; };
+		6C7CE74B2F510EFA00A967A4 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE68E2F510EFA00A967A4 /* Typography.swift */; };
+		6C7CE74C2F510EFA00A967A4 /* CompletionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6832F510EFA00A967A4 /* CompletionAnimation.swift */; };
+		6C7CE74D2F510EFA00A967A4 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6772F510EFA00A967A4 /* WorkoutSession.swift */; };
+		6C7CE74E2F510EFA00A967A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6AA2F510EFA00A967A4 /* ContentView.swift */; };
+		6C7CE74F2F510EFA00A967A4 /* IronSovereignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6682F510EFA00A967A4 /* IronSovereignApp.swift */; };
+		6C7CE7502F510EFA00A967A4 /* ProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67A2F510EFA00A967A4 /* ProgressRepository.swift */; };
+		6C7CE7512F510EFA00A967A4 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE69D2F510EFA00A967A4 /* ProgressViewModel.swift */; };
+		6C7CE7522F510EFA00A967A4 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A62F510EFA00A967A4 /* WorkoutViewModel.swift */; };
+		6C7CE7542F510EFA00A967A4 /* CardioSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6912F510EFA00A967A4 /* CardioSessionView.swift */; };
+		6C7CE7552F510EFA00A967A4 /* ExerciseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE66C2F510EFA00A967A4 /* ExerciseDatabase.swift */; };
+		6C7CE7562F510EFA00A967A4 /* TransitionEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6842F510EFA00A967A4 /* TransitionEffects.swift */; };
+		6C7CE7572F510EFA00A967A4 /* ExerciseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6732F510EFA00A967A4 /* ExerciseSet.swift */; };
+		6C7CE7582F510EFA00A967A4 /* EmberProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6862F510EFA00A967A4 /* EmberProgressBar.swift */; };
+		6C7CE7592F510EFA00A967A4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A02F510EFA00A967A4 /* SettingsViewModel.swift */; };
+		6C7CE75A2F510EFA00A967A4 /* CardioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6702F510EFA00A967A4 /* CardioSession.swift */; };
+		6C7CE75B2F510EFA00A967A4 /* ProgressRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6742F510EFA00A967A4 /* ProgressRecord.swift */; };
+		6C7CE75C2F510EFA00A967A4 /* ClaudeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67D2F510EFA00A967A4 /* ClaudeAPIService.swift */; };
+		6C7CE75D2F510EFA00A967A4 /* CardioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6922F510EFA00A967A4 /* CardioViewModel.swift */; };
+		6C7CE75E2F510EFA00A967A4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6672F510EFA00A967A4 /* AppState.swift */; };
+		6C7CE75F2F510EFA00A967A4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE6722F510EFA00A967A4 /* Exercise.swift */; };
+		6C7CE7602F510EFA00A967A4 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CE67E2F510EFA00A967A4 /* NetworkMonitor.swift */; };
+		6C7CE7612F510EFA00A967A4 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CE6B42F510EFA00A967A4 /* ExerciseData.json */; };
+		6C7CE7622F510EFA00A967A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7CE6A92F510EFA00A967A4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C7CE64A2F510E3F00A967A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7CE6322F510E3C00A967A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7CE6392F510E3C00A967A4;
+			remoteInfo = IronSabereign;
+		};
+		6C7CE6542F510E3F00A967A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C7CE6322F510E3C00A967A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7CE6392F510E3C00A967A4;
+			remoteInfo = IronSabereign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C7CE63A2F510E3C00A967A4 /* IronSabereign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronSabereign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7CE6492F510E3F00A967A4 /* IronSabereignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronSabereignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7CE6532F510E3F00A967A4 /* IronSabereignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronSabereignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7CE6672F510EFA00A967A4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		6C7CE6682F510EFA00A967A4 /* IronSovereignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronSovereignApp.swift; sourceTree = "<group>"; };
+		6C7CE66A2F510EFA00A967A4 /* AdaptiveAdjuster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveAdjuster.swift; sourceTree = "<group>"; };
+		6C7CE66B2F510EFA00A967A4 /* CardioPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioPlanner.swift; sourceTree = "<group>"; };
+		6C7CE66C2F510EFA00A967A4 /* ExerciseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabase.swift; sourceTree = "<group>"; };
+		6C7CE66D2F510EFA00A967A4 /* PlanGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanGenerator.swift; sourceTree = "<group>"; };
+		6C7CE66E2F510EFA00A967A4 /* RuleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleEngine.swift; sourceTree = "<group>"; };
+		6C7CE6702F510EFA00A967A4 /* CardioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioSession.swift; sourceTree = "<group>"; };
+		6C7CE6712F510EFA00A967A4 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6C7CE6722F510EFA00A967A4 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		6C7CE6732F510EFA00A967A4 /* ExerciseSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSet.swift; sourceTree = "<group>"; };
+		6C7CE6742F510EFA00A967A4 /* ProgressRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRecord.swift; sourceTree = "<group>"; };
+		6C7CE6752F510EFA00A967A4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		6C7CE6762F510EFA00A967A4 /* WorkoutPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlan.swift; sourceTree = "<group>"; };
+		6C7CE6772F510EFA00A967A4 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		6C7CE6792F510EFA00A967A4 /* ProfileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRepository.swift; sourceTree = "<group>"; };
+		6C7CE67A2F510EFA00A967A4 /* ProgressRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRepository.swift; sourceTree = "<group>"; };
+		6C7CE67B2F510EFA00A967A4 /* WorkoutRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepository.swift; sourceTree = "<group>"; };
+		6C7CE67D2F510EFA00A967A4 /* ClaudeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAPIService.swift; sourceTree = "<group>"; };
+		6C7CE67E2F510EFA00A967A4 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		6C7CE67F2F510EFA00A967A4 /* ProgressCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCalculator.swift; sourceTree = "<group>"; };
+		6C7CE6812F510EFA00A967A4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6C7CE6832F510EFA00A967A4 /* CompletionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionAnimation.swift; sourceTree = "<group>"; };
+		6C7CE6842F510EFA00A967A4 /* TransitionEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionEffects.swift; sourceTree = "<group>"; };
+		6C7CE6862F510EFA00A967A4 /* EmberProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberProgressBar.swift; sourceTree = "<group>"; };
+		6C7CE6872F510EFA00A967A4 /* ForgeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgeBanner.swift; sourceTree = "<group>"; };
+		6C7CE6882F510EFA00A967A4 /* GlowingDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingDivider.swift; sourceTree = "<group>"; };
+		6C7CE6892F510EFA00A967A4 /* RuneCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneCard.swift; sourceTree = "<group>"; };
+		6C7CE68A2F510EFA00A967A4 /* SovereignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SovereignButton.swift; sourceTree = "<group>"; };
+		6C7CE68C2F510EFA00A967A4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6C7CE68D2F510EFA00A967A4 /* IronTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronTheme.swift; sourceTree = "<group>"; };
+		6C7CE68E2F510EFA00A967A4 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		6C7CE6912F510EFA00A967A4 /* CardioSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioSessionView.swift; sourceTree = "<group>"; };
+		6C7CE6922F510EFA00A967A4 /* CardioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioViewModel.swift; sourceTree = "<group>"; };
+		6C7CE6942F510EFA00A967A4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		6C7CE6952F510EFA00A967A4 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		6C7CE6972F510EFA00A967A4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6C7CE6982F510EFA00A967A4 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		6C7CE69A2F510EFA00A967A4 /* BodyweightChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyweightChartView.swift; sourceTree = "<group>"; };
+		6C7CE69B2F510EFA00A967A4 /* ExerciseChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseChartView.swift; sourceTree = "<group>"; };
+		6C7CE69C2F510EFA00A967A4 /* ProgressDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDashboardView.swift; sourceTree = "<group>"; };
+		6C7CE69D2F510EFA00A967A4 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		6C7CE69F2F510EFA00A967A4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6C7CE6A02F510EFA00A967A4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		6C7CE6A22F510EFA00A967A4 /* ExerciseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCardView.swift; sourceTree = "<group>"; };
+		6C7CE6A32F510EFA00A967A4 /* RestTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTimerView.swift; sourceTree = "<group>"; };
+		6C7CE6A42F510EFA00A967A4 /* SetCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCompletionView.swift; sourceTree = "<group>"; };
+		6C7CE6A52F510EFA00A967A4 /* WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionView.swift; sourceTree = "<group>"; };
+		6C7CE6A62F510EFA00A967A4 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		6C7CE6A92F510EFA00A967A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7CE6AA2F510EFA00A967A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C7CE6AB2F510EFA00A967A4 /* IronSabereignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronSabereignApp.swift; sourceTree = "<group>"; };
+		6C7CE6AC2F510EFA00A967A4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6C7CE6AE2F510EFA00A967A4 /* IronSabereign.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = IronSabereign.xcodeproj; sourceTree = "<group>"; };
+		6C7CE6B42F510EFA00A967A4 /* ExerciseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExerciseData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7CE6372F510E3C00A967A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7CE6462F510E3F00A967A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7CE6502F510E3F00A967A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7CE6312F510E3C00A967A4 = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6692F510EFA00A967A4 /* App */,
+				6C7CE6822F510EFA00A967A4 /* Core */,
+				6C7CE6902F510EFA00A967A4 /* DesignSystem */,
+				6C7CE6A82F510EFA00A967A4 /* Features */,
+				6C7CE6AD2F510EFA00A967A4 /* IronSabereign */,
+				6C7CE6AE2F510EFA00A967A4 /* IronSabereign.xcodeproj */,
+				6C7CE6B52F510EFA00A967A4 /* Resources */,
+				6C7CE63B2F510E3C00A967A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7CE63B2F510E3C00A967A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE63A2F510E3C00A967A4 /* IronSabereign.app */,
+				6C7CE6492F510E3F00A967A4 /* IronSabereignTests.xctest */,
+				6C7CE6532F510E3F00A967A4 /* IronSabereignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7CE6692F510EFA00A967A4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6672F510EFA00A967A4 /* AppState.swift */,
+				6C7CE6682F510EFA00A967A4 /* IronSovereignApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6C7CE66F2F510EFA00A967A4 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE66A2F510EFA00A967A4 /* AdaptiveAdjuster.swift */,
+				6C7CE66B2F510EFA00A967A4 /* CardioPlanner.swift */,
+				6C7CE66C2F510EFA00A967A4 /* ExerciseDatabase.swift */,
+				6C7CE66D2F510EFA00A967A4 /* PlanGenerator.swift */,
+				6C7CE66E2F510EFA00A967A4 /* RuleEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		6C7CE6782F510EFA00A967A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6702F510EFA00A967A4 /* CardioSession.swift */,
+				6C7CE6712F510EFA00A967A4 /* Enums.swift */,
+				6C7CE6722F510EFA00A967A4 /* Exercise.swift */,
+				6C7CE6732F510EFA00A967A4 /* ExerciseSet.swift */,
+				6C7CE6742F510EFA00A967A4 /* ProgressRecord.swift */,
+				6C7CE6752F510EFA00A967A4 /* UserProfile.swift */,
+				6C7CE6762F510EFA00A967A4 /* WorkoutPlan.swift */,
+				6C7CE6772F510EFA00A967A4 /* WorkoutSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C7CE67C2F510EFA00A967A4 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6792F510EFA00A967A4 /* ProfileRepository.swift */,
+				6C7CE67A2F510EFA00A967A4 /* ProgressRepository.swift */,
+				6C7CE67B2F510EFA00A967A4 /* WorkoutRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6C7CE6802F510EFA00A967A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE67D2F510EFA00A967A4 /* ClaudeAPIService.swift */,
+				6C7CE67E2F510EFA00A967A4 /* NetworkMonitor.swift */,
+				6C7CE67F2F510EFA00A967A4 /* ProgressCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6C7CE6822F510EFA00A967A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE66F2F510EFA00A967A4 /* Engine */,
+				6C7CE6782F510EFA00A967A4 /* Models */,
+				6C7CE67C2F510EFA00A967A4 /* Repositories */,
+				6C7CE6802F510EFA00A967A4 /* Services */,
+				6C7CE6812F510EFA00A967A4 /* Extensions.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6C7CE6852F510EFA00A967A4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6832F510EFA00A967A4 /* CompletionAnimation.swift */,
+				6C7CE6842F510EFA00A967A4 /* TransitionEffects.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6C7CE68B2F510EFA00A967A4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6862F510EFA00A967A4 /* EmberProgressBar.swift */,
+				6C7CE6872F510EFA00A967A4 /* ForgeBanner.swift */,
+				6C7CE6882F510EFA00A967A4 /* GlowingDivider.swift */,
+				6C7CE6892F510EFA00A967A4 /* RuneCard.swift */,
+				6C7CE68A2F510EFA00A967A4 /* SovereignButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6C7CE68F2F510EFA00A967A4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE68C2F510EFA00A967A4 /* Colors.swift */,
+				6C7CE68D2F510EFA00A967A4 /* IronTheme.swift */,
+				6C7CE68E2F510EFA00A967A4 /* Typography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		6C7CE6902F510EFA00A967A4 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6852F510EFA00A967A4 /* Animations */,
+				6C7CE68B2F510EFA00A967A4 /* Components */,
+				6C7CE68F2F510EFA00A967A4 /* Theme */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		6C7CE6932F510EFA00A967A4 /* Cardio */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6912F510EFA00A967A4 /* CardioSessionView.swift */,
+				6C7CE6922F510EFA00A967A4 /* CardioViewModel.swift */,
+			);
+			path = Cardio;
+			sourceTree = "<group>";
+		};
+		6C7CE6962F510EFA00A967A4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6942F510EFA00A967A4 /* DashboardView.swift */,
+				6C7CE6952F510EFA00A967A4 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		6C7CE6992F510EFA00A967A4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6972F510EFA00A967A4 /* OnboardingView.swift */,
+				6C7CE6982F510EFA00A967A4 /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6C7CE69E2F510EFA00A967A4 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE69A2F510EFA00A967A4 /* BodyweightChartView.swift */,
+				6C7CE69B2F510EFA00A967A4 /* ExerciseChartView.swift */,
+				6C7CE69C2F510EFA00A967A4 /* ProgressDashboardView.swift */,
+				6C7CE69D2F510EFA00A967A4 /* ProgressViewModel.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		6C7CE6A12F510EFA00A967A4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE69F2F510EFA00A967A4 /* SettingsView.swift */,
+				6C7CE6A02F510EFA00A967A4 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6C7CE6A72F510EFA00A967A4 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6A22F510EFA00A967A4 /* ExerciseCardView.swift */,
+				6C7CE6A32F510EFA00A967A4 /* RestTimerView.swift */,
+				6C7CE6A42F510EFA00A967A4 /* SetCompletionView.swift */,
+				6C7CE6A52F510EFA00A967A4 /* WorkoutSessionView.swift */,
+				6C7CE6A62F510EFA00A967A4 /* WorkoutViewModel.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		6C7CE6A82F510EFA00A967A4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6932F510EFA00A967A4 /* Cardio */,
+				6C7CE6962F510EFA00A967A4 /* Dashboard */,
+				6C7CE6992F510EFA00A967A4 /* Onboarding */,
+				6C7CE69E2F510EFA00A967A4 /* Progress */,
+				6C7CE6A12F510EFA00A967A4 /* Settings */,
+				6C7CE6A72F510EFA00A967A4 /* Workout */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6C7CE6AD2F510EFA00A967A4 /* IronSabereign */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6A92F510EFA00A967A4 /* Assets.xcassets */,
+				6C7CE6AA2F510EFA00A967A4 /* ContentView.swift */,
+				6C7CE6AB2F510EFA00A967A4 /* IronSabereignApp.swift */,
+				6C7CE6AC2F510EFA00A967A4 /* Item.swift */,
+			);
+			path = IronSabereign;
+			sourceTree = "<group>";
+		};
+		6C7CE6B52F510EFA00A967A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C7CE6B42F510EFA00A967A4 /* ExerciseData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C7CE6B62F510EFA00A967A4 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7CE6392F510E3C00A967A4 /* IronSabereign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7CE65D2F510E3F00A967A4 /* Build configuration list for PBXNativeTarget "IronSabereign" */;
+			buildPhases = (
+				6C7CE6362F510E3C00A967A4 /* Sources */,
+				6C7CE6372F510E3C00A967A4 /* Frameworks */,
+				6C7CE6382F510E3C00A967A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronSabereign;
+			packageProductDependencies = (
+			);
+			productName = IronSabereign;
+			productReference = 6C7CE63A2F510E3C00A967A4 /* IronSabereign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C7CE6482F510E3F00A967A4 /* IronSabereignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7CE6602F510E3F00A967A4 /* Build configuration list for PBXNativeTarget "IronSabereignTests" */;
+			buildPhases = (
+				6C7CE6452F510E3F00A967A4 /* Sources */,
+				6C7CE6462F510E3F00A967A4 /* Frameworks */,
+				6C7CE6472F510E3F00A967A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7CE64B2F510E3F00A967A4 /* PBXTargetDependency */,
+			);
+			name = IronSabereignTests;
+			packageProductDependencies = (
+			);
+			productName = IronSabereignTests;
+			productReference = 6C7CE6492F510E3F00A967A4 /* IronSabereignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C7CE6522F510E3F00A967A4 /* IronSabereignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7CE6632F510E3F00A967A4 /* Build configuration list for PBXNativeTarget "IronSabereignUITests" */;
+			buildPhases = (
+				6C7CE64F2F510E3F00A967A4 /* Sources */,
+				6C7CE6502F510E3F00A967A4 /* Frameworks */,
+				6C7CE6512F510E3F00A967A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7CE6552F510E3F00A967A4 /* PBXTargetDependency */,
+			);
+			name = IronSabereignUITests;
+			packageProductDependencies = (
+			);
+			productName = IronSabereignUITests;
+			productReference = 6C7CE6532F510E3F00A967A4 /* IronSabereignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7CE6322F510E3C00A967A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					6C7CE6392F510E3C00A967A4 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					6C7CE6482F510E3F00A967A4 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 6C7CE6392F510E3C00A967A4;
+					};
+					6C7CE6522F510E3F00A967A4 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 6C7CE6392F510E3C00A967A4;
+					};
+				};
+			};
+			buildConfigurationList = 6C7CE6352F510E3C00A967A4 /* Build configuration list for PBXProject "IronSabereign" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7CE6312F510E3C00A967A4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6C7CE63B2F510E3C00A967A4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6C7CE6B62F510EFA00A967A4 /* Products */;
+					ProjectRef = 6C7CE6AE2F510EFA00A967A4 /* IronSabereign.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6C7CE6392F510E3C00A967A4 /* IronSabereign */,
+				6C7CE6482F510E3F00A967A4 /* IronSabereignTests */,
+				6C7CE6522F510E3F00A967A4 /* IronSabereignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7CE6382F510E3C00A967A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CE6F12F510EFA00A967A4 /* ExerciseData.json in Resources */,
+				6C7CE6F22F510EFA00A967A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7CE6472F510E3F00A967A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CE6B82F510EFA00A967A4 /* ExerciseData.json in Resources */,
+				6C7CE6B92F510EFA00A967A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7CE6512F510E3F00A967A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CE7612F510EFA00A967A4 /* ExerciseData.json in Resources */,
+				6C7CE7622F510EFA00A967A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7CE6362F510E3C00A967A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CE6F32F510EFA00A967A4 /* Extensions.swift in Sources */,
+				6C7CE6F42F510EFA00A967A4 /* OnboardingViewModel.swift in Sources */,
+				6C7CE6F52F510EFA00A967A4 /* IronTheme.swift in Sources */,
+				6C7CE6F62F510EFA00A967A4 /* AdaptiveAdjuster.swift in Sources */,
+				6C7CE6F72F510EFA00A967A4 /* ExerciseCardView.swift in Sources */,
+				6C7CE6F82F510EFA00A967A4 /* WorkoutSessionView.swift in Sources */,
+				6C7CE6F92F510EFA00A967A4 /* DashboardViewModel.swift in Sources */,
+				6C7CE6FA2F510EFA00A967A4 /* SettingsView.swift in Sources */,
+				6C7CE6FB2F510EFA00A967A4 /* SetCompletionView.swift in Sources */,
+				6C7CE6FC2F510EFA00A967A4 /* GlowingDivider.swift in Sources */,
+				6C7CE6FD2F510EFA00A967A4 /* SovereignButton.swift in Sources */,
+				6C7CE6FE2F510EFA00A967A4 /* UserProfile.swift in Sources */,
+				6C7CE6FF2F510EFA00A967A4 /* ProfileRepository.swift in Sources */,
+				6C7CE7002F510EFA00A967A4 /* RuneCard.swift in Sources */,
+				6C7CE7012F510EFA00A967A4 /* Colors.swift in Sources */,
+				6C7CE7022F510EFA00A967A4 /* Item.swift in Sources */,
+				6C7CE7032F510EFA00A967A4 /* PlanGenerator.swift in Sources */,
+				6C7CE7042F510EFA00A967A4 /* IronSabereignApp.swift in Sources */,
+				6C7CE7052F510EFA00A967A4 /* ExerciseChartView.swift in Sources */,
+				6C7CE7062F510EFA00A967A4 /* BodyweightChartView.swift in Sources */,
+				6C7CE7072F510EFA00A967A4 /* ProgressDashboardView.swift in Sources */,
+				6C7CE7082F510EFA00A967A4 /* RuleEngine.swift in Sources */,
+				6C7CE7092F510EFA00A967A4 /* ForgeBanner.swift in Sources */,
+				6C7CE70A2F510EFA00A967A4 /* CardioPlanner.swift in Sources */,
+				6C7CE70C2F510EFA00A967A4 /* RestTimerView.swift in Sources */,
+				6C7CE70D2F510EFA00A967A4 /* ProgressCalculator.swift in Sources */,
+				6C7CE70E2F510EFA00A967A4 /* OnboardingView.swift in Sources */,
+				6C7CE70F2F510EFA00A967A4 /* DashboardView.swift in Sources */,
+				6C7CE7112F510EFA00A967A4 /* Enums.swift in Sources */,
+				6C7CE7122F510EFA00A967A4 /* WorkoutPlan.swift in Sources */,
+				6C7CE7132F510EFA00A967A4 /* WorkoutRepository.swift in Sources */,
+				6C7CE7142F510EFA00A967A4 /* Typography.swift in Sources */,
+				6C7CE7152F510EFA00A967A4 /* CompletionAnimation.swift in Sources */,
+				6C7CE7162F510EFA00A967A4 /* WorkoutSession.swift in Sources */,
+				6C7CE7172F510EFA00A967A4 /* ContentView.swift in Sources */,
+				6C7CE7182F510EFA00A967A4 /* IronSovereignApp.swift in Sources */,
+				6C7CE7192F510EFA00A967A4 /* ProgressRepository.swift in Sources */,
+				6C7CE71A2F510EFA00A967A4 /* ProgressViewModel.swift in Sources */,
+				6C7CE71B2F510EFA00A967A4 /* WorkoutViewModel.swift in Sources */,
+				6C7CE71D2F510EFA00A967A4 /* CardioSessionView.swift in Sources */,
+				6C7CE71E2F510EFA00A967A4 /* ExerciseDatabase.swift in Sources */,
+				6C7CE71F2F510EFA00A967A4 /* TransitionEffects.swift in Sources */,
+				6C7CE7202F510EFA00A967A4 /* ExerciseSet.swift in Sources */,
+				6C7CE7212F510EFA00A967A4 /* EmberProgressBar.swift in Sources */,
+				6C7CE7222F510EFA00A967A4 /* SettingsViewModel.swift in Sources */,
+				6C7CE7232F510EFA00A967A4 /* CardioSession.swift in Sources */,
+				6C7CE7242F510EFA00A967A4 /* ProgressRecord.swift in Sources */,
+				6C7CE7252F510EFA00A967A4 /* ClaudeAPIService.swift in Sources */,
+				6C7CE7262F510EFA00A967A4 /* CardioViewModel.swift in Sources */,
+				6C7CE7272F510EFA00A967A4 /* AppState.swift in Sources */,
+				6C7CE7282F510EFA00A967A4 /* Exercise.swift in Sources */,
+				6C7CE7292F510EFA00A967A4 /* NetworkMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7CE6452F510E3F00A967A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CE6BA2F510EFA00A967A4 /* Extensions.swift in Sources */,
+				6C7CE6BB2F510EFA00A967A4 /* OnboardingViewModel.swift in Sources */,
+				6C7CE6BC2F510EFA00A967A4 /* IronTheme.swift in Sources */,
+				6C7CE6BD2F510EFA00A967A4 /* AdaptiveAdjuster.swift in Sources */,
+				6C7CE6BE2F510EFA00A967A4 /* ExerciseCardView.swift in Sources */,
+				6C7CE6BF2F510EFA00A967A4 /* WorkoutSessionView.swift in Sources */,
+				6C7CE6C02F510EFA00A967A4 /* DashboardViewModel.swift in Sources */,
+				6C7CE6C12F510EFA00A967A4 /* SettingsView.swift in Sources */,
+				6C7CE6C22F510EFA00A967A4 /* SetCompletionView.swift in Sources */,
+				6C7CE6C32F510EFA00A967A4 /* GlowingDivider.swift in Sources */,
+				6C7CE6C42F510EFA00A967A4 /* SovereignButton.swift in Sources */,
+				6C7CE6C52F510EFA00A967A4 /* UserProfile.swift in Sources */,
+				6C7CE6C62F510EFA00A967A4 /* ProfileRepository.swift in Sources */,
+				6C7CE6C72F510EFA00A967A4 /* RuneCard.swift in Sources */,
+				6C7CE6C82F510EFA00A967A4 /* Colors.swift in Sources */,
+				6C7CE6C92F510EFA00A967A4 /* Item.swift in Sources */,
+				6C7CE6CA2F510EFA00A967A4 /* PlanGenerator.swift in Sources */,
+				6C7CE6CB2F510EFA00A967A4 /* IronSabereignApp.swift in Sources */,
+				6C7CE6CC2F510EFA00A967A4 /* ExerciseChartView.swift in Sources */,
+				6C7CE6CD2F510EFA00A967A4 /* BodyweightChartView.swift in Sources */,
+				6C7CE6CE2F510EFA00A967A4 /* ProgressDashboardView.swift in Sources */,
+				6C7CE6CF2F510EFA00A967A4 /* RuleEngine.swift in Sources */,
+				6C7CE6D02F510EFA00A967A4 /* ForgeBanner.swift in Sources */,
+				6C7CE6D12F510EFA00A967A4 /* CardioPlanner.swift in Sources */,
+				6C7CE6D32F510EFA00A967A4 /* RestTimerView.swift in Sources */,
+				6C7CE6D42F510EFA00A967A4 /* ProgressCalculator.swift in Sources */,
+				6C7CE6D52F510EFA00A967A4 /* OnboardingView.swift in Sources */,
+				6C7CE6D62F510EFA00A967A4 /* DashboardView.swift in Sources */,
+				6C7CE6D82F510EFA00A967A4 /* Enums.swift in Sources */,
+				6C7CE6D92F510EFA00A967A4 /* WorkoutPlan.swift in Sources */,
+				6C7CE6DA2F510EFA00A967A4 /* WorkoutRepository.swift in Sources */,
+				6C7CE6DB2F510EFA00A967A4 /* Typography.swift in Sources */,
+				6C7CE6DC2F510EFA00A967A4 /* CompletionAnimation.swift in Sources */,
+				6C7CE6DD2F510EFA00A967A4 /* WorkoutSession.swift in Sources */,
+				6C7CE6DE2F510EFA00A967A4 /* ContentView.swift in Sources */,
+				6C7CE6DF2F510EFA00A967A4 /* IronSovereignApp.swift in Sources */,
+				6C7CE6E02F510EFA00A967A4 /* ProgressRepository.swift in Sources */,
+				6C7CE6E12F510EFA00A967A4 /* ProgressViewModel.swift in Sources */,
+				6C7CE6E22F510EFA00A967A4 /* WorkoutViewModel.swift in Sources */,
+				6C7CE6E42F510EFA00A967A4 /* CardioSessionView.swift in Sources */,
+				6C7CE6E52F510EFA00A967A4 /* ExerciseDatabase.swift in Sources */,
+				6C7CE6E62F510EFA00A967A4 /* TransitionEffects.swift in Sources */,
+				6C7CE6E72F510EFA00A967A4 /* ExerciseSet.swift in Sources */,
+				6C7CE6E82F510EFA00A967A4 /* EmberProgressBar.swift in Sources */,
+				6C7CE6E92F510EFA00A967A4 /* SettingsViewModel.swift in Sources */,
+				6C7CE6EA2F510EFA00A967A4 /* CardioSession.swift in Sources */,
+				6C7CE6EB2F510EFA00A967A4 /* ProgressRecord.swift in Sources */,
+				6C7CE6EC2F510EFA00A967A4 /* ClaudeAPIService.swift in Sources */,
+				6C7CE6ED2F510EFA00A967A4 /* CardioViewModel.swift in Sources */,
+				6C7CE6EE2F510EFA00A967A4 /* AppState.swift in Sources */,
+				6C7CE6EF2F510EFA00A967A4 /* Exercise.swift in Sources */,
+				6C7CE6F02F510EFA00A967A4 /* NetworkMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7CE64F2F510E3F00A967A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7CE72A2F510EFA00A967A4 /* Extensions.swift in Sources */,
+				6C7CE72B2F510EFA00A967A4 /* OnboardingViewModel.swift in Sources */,
+				6C7CE72C2F510EFA00A967A4 /* IronTheme.swift in Sources */,
+				6C7CE72D2F510EFA00A967A4 /* AdaptiveAdjuster.swift in Sources */,
+				6C7CE72E2F510EFA00A967A4 /* ExerciseCardView.swift in Sources */,
+				6C7CE72F2F510EFA00A967A4 /* WorkoutSessionView.swift in Sources */,
+				6C7CE7302F510EFA00A967A4 /* DashboardViewModel.swift in Sources */,
+				6C7CE7312F510EFA00A967A4 /* SettingsView.swift in Sources */,
+				6C7CE7322F510EFA00A967A4 /* SetCompletionView.swift in Sources */,
+				6C7CE7332F510EFA00A967A4 /* GlowingDivider.swift in Sources */,
+				6C7CE7342F510EFA00A967A4 /* SovereignButton.swift in Sources */,
+				6C7CE7352F510EFA00A967A4 /* UserProfile.swift in Sources */,
+				6C7CE7362F510EFA00A967A4 /* ProfileRepository.swift in Sources */,
+				6C7CE7372F510EFA00A967A4 /* RuneCard.swift in Sources */,
+				6C7CE7382F510EFA00A967A4 /* Colors.swift in Sources */,
+				6C7CE7392F510EFA00A967A4 /* Item.swift in Sources */,
+				6C7CE73A2F510EFA00A967A4 /* PlanGenerator.swift in Sources */,
+				6C7CE73B2F510EFA00A967A4 /* IronSabereignApp.swift in Sources */,
+				6C7CE73C2F510EFA00A967A4 /* ExerciseChartView.swift in Sources */,
+				6C7CE73D2F510EFA00A967A4 /* BodyweightChartView.swift in Sources */,
+				6C7CE73E2F510EFA00A967A4 /* ProgressDashboardView.swift in Sources */,
+				6C7CE73F2F510EFA00A967A4 /* RuleEngine.swift in Sources */,
+				6C7CE7402F510EFA00A967A4 /* ForgeBanner.swift in Sources */,
+				6C7CE7412F510EFA00A967A4 /* CardioPlanner.swift in Sources */,
+				6C7CE7432F510EFA00A967A4 /* RestTimerView.swift in Sources */,
+				6C7CE7442F510EFA00A967A4 /* ProgressCalculator.swift in Sources */,
+				6C7CE7452F510EFA00A967A4 /* OnboardingView.swift in Sources */,
+				6C7CE7462F510EFA00A967A4 /* DashboardView.swift in Sources */,
+				6C7CE7482F510EFA00A967A4 /* Enums.swift in Sources */,
+				6C7CE7492F510EFA00A967A4 /* WorkoutPlan.swift in Sources */,
+				6C7CE74A2F510EFA00A967A4 /* WorkoutRepository.swift in Sources */,
+				6C7CE74B2F510EFA00A967A4 /* Typography.swift in Sources */,
+				6C7CE74C2F510EFA00A967A4 /* CompletionAnimation.swift in Sources */,
+				6C7CE74D2F510EFA00A967A4 /* WorkoutSession.swift in Sources */,
+				6C7CE74E2F510EFA00A967A4 /* ContentView.swift in Sources */,
+				6C7CE74F2F510EFA00A967A4 /* IronSovereignApp.swift in Sources */,
+				6C7CE7502F510EFA00A967A4 /* ProgressRepository.swift in Sources */,
+				6C7CE7512F510EFA00A967A4 /* ProgressViewModel.swift in Sources */,
+				6C7CE7522F510EFA00A967A4 /* WorkoutViewModel.swift in Sources */,
+				6C7CE7542F510EFA00A967A4 /* CardioSessionView.swift in Sources */,
+				6C7CE7552F510EFA00A967A4 /* ExerciseDatabase.swift in Sources */,
+				6C7CE7562F510EFA00A967A4 /* TransitionEffects.swift in Sources */,
+				6C7CE7572F510EFA00A967A4 /* ExerciseSet.swift in Sources */,
+				6C7CE7582F510EFA00A967A4 /* EmberProgressBar.swift in Sources */,
+				6C7CE7592F510EFA00A967A4 /* SettingsViewModel.swift in Sources */,
+				6C7CE75A2F510EFA00A967A4 /* CardioSession.swift in Sources */,
+				6C7CE75B2F510EFA00A967A4 /* ProgressRecord.swift in Sources */,
+				6C7CE75C2F510EFA00A967A4 /* ClaudeAPIService.swift in Sources */,
+				6C7CE75D2F510EFA00A967A4 /* CardioViewModel.swift in Sources */,
+				6C7CE75E2F510EFA00A967A4 /* AppState.swift in Sources */,
+				6C7CE75F2F510EFA00A967A4 /* Exercise.swift in Sources */,
+				6C7CE7602F510EFA00A967A4 /* NetworkMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C7CE64B2F510E3F00A967A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7CE6392F510E3C00A967A4 /* IronSabereign */;
+			targetProxy = 6C7CE64A2F510E3F00A967A4 /* PBXContainerItemProxy */;
+		};
+		6C7CE6552F510E3F00A967A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7CE6392F510E3C00A967A4 /* IronSabereign */;
+			targetProxy = 6C7CE6542F510E3F00A967A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C7CE65B2F510E3F00A967A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C7CE65C2F510E3F00A967A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7CE65E2F510E3F00A967A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamahiro.IronSabereign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C7CE65F2F510E3F00A967A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamahiro.IronSabereign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C7CE6612F510E3F00A967A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamahiro.IronSabereignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronSabereign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IronSabereign";
+			};
+			name = Debug;
+		};
+		6C7CE6622F510E3F00A967A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamahiro.IronSabereignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronSabereign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IronSabereign";
+			};
+			name = Release;
+		};
+		6C7CE6642F510E3F00A967A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamahiro.IronSabereignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronSabereign;
+			};
+			name = Debug;
+		};
+		6C7CE6652F510E3F00A967A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamahiro.IronSabereignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronSabereign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7CE6352F510E3C00A967A4 /* Build configuration list for PBXProject "IronSabereign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CE65B2F510E3F00A967A4 /* Debug */,
+				6C7CE65C2F510E3F00A967A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7CE65D2F510E3F00A967A4 /* Build configuration list for PBXNativeTarget "IronSabereign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CE65E2F510E3F00A967A4 /* Debug */,
+				6C7CE65F2F510E3F00A967A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7CE6602F510E3F00A967A4 /* Build configuration list for PBXNativeTarget "IronSabereignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CE6612F510E3F00A967A4 /* Debug */,
+				6C7CE6622F510E3F00A967A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7CE6632F510E3F00A967A4 /* Build configuration list for PBXNativeTarget "IronSabereignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CE6642F510E3F00A967A4 /* Debug */,
+				6C7CE6652F510E3F00A967A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7CE6322F510E3C00A967A4 /* Project object */;
+}

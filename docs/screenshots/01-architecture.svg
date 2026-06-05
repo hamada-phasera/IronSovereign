@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#0f172a"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.12" cy="0.0" r="0.9">
+<stop offset="0" stop-color="#fb923c22"/><stop offset="1" stop-color="#fb923c00"/>
+</radialGradient>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<rect width="1200" height="675" fill="url(#glow)"/>
+<rect x="0" y="0" width="6" height="675" fill="#fb923c"/>
+<text x="60" y="70" font-size="40" font-weight="700" fill="#f8fafc"
+ font-family="-apple-system,Hiragino Sans,sans-serif">IronSovereign</text>
+<rect x="907" y="44" rx="14" ry="14" width="233" height="30"
+ fill="#fb923c22" stroke="#fb923c"/>
+<text x="1024" y="64" text-anchor="middle" font-size="13"
+ fill="#fb923c" font-family="ui-monospace,monospace">SwiftUI · SwiftData</text>
+<text x="60" y="108" font-size="17" fill="#94a3b8"
+ font-family="-apple-system,Hiragino Sans,sans-serif">&quot;鍛冶(Forge)&quot; の世界観を体系化した SwiftUI デザインシステム</text>
+<rect x="60" y="150" rx="13" ry="13" width="80" height="26" fill="#fb923c1a" stroke="#fb923c55"/><text x="100" y="168" text-anchor="middle" font-size="13" fill="#cbd5e1" font-family="ui-monospace,Menlo,monospace">SwiftUI</text>
+<rect x="150" y="150" rx="13" ry="13" width="99" height="26" fill="#fb923c1a" stroke="#fb923c55"/><text x="200" y="168" text-anchor="middle" font-size="13" fill="#cbd5e1" font-family="ui-monospace,Menlo,monospace">SwiftData</text>
+<rect x="259" y="150" rx="13" ry="13" width="154" height="26" fill="#fb923c1a" stroke="#fb923c55"/><text x="336" y="168" text-anchor="middle" font-size="13" fill="#cbd5e1" font-family="ui-monospace,Menlo,monospace">Repository パターン</text>
+<rect x="423" y="150" rx="13" ry="13" width="163" height="26" fill="#fb923c1a" stroke="#fb923c55"/><text x="505" y="168" text-anchor="middle" font-size="13" fill="#cbd5e1" font-family="ui-monospace,Menlo,monospace">ClaudeAPIService</text>
+<rect x="596" y="150" rx="13" ry="13" width="145" height="26" fill="#fb923c1a" stroke="#fb923c55"/><text x="669" y="168" text-anchor="middle" font-size="13" fill="#cbd5e1" font-family="ui-monospace,Menlo,monospace">56 Swift files</text>
+<text x="60" y="194" font-size="13" fill="#fb923c" letter-spacing="2"
+ font-family="ui-monospace,monospace">ARCHITECTURE / FLOW</text>
+<rect x="60" y="204" rx="10" ry="10" width="1080" height="46" fill="#11182799" stroke="#fb923c66"/><circle cx="92" cy="227" r="11" fill="#fb923c33" stroke="#fb923c"/><text x="92" y="231" text-anchor="middle" font-size="12" fill="#fb923c" font-family="ui-monospace,monospace">1</text><text x="118" y="232" font-size="15" fill="#e2e8f0" font-family="-apple-system,Hiragino Sans,sans-serif">Data: SwiftData モデル (UserProfile, WorkoutPlan, Session...)</text>
+<line x1="84" y1="250" x2="84" y2="300" stroke="#fb923c99" stroke-width="2"/><polygon points="84,300 80,294 88,294" fill="#fb923c99"/>
+<rect x="60" y="300" rx="10" ry="10" width="1080" height="46" fill="#11182799" stroke="#fb923c66"/><circle cx="92" cy="323" r="11" fill="#fb923c33" stroke="#fb923c"/><text x="92" y="327" text-anchor="middle" font-size="12" fill="#fb923c" font-family="ui-monospace,monospace">2</text><text x="118" y="328" font-size="15" fill="#e2e8f0" font-family="-apple-system,Hiragino Sans,sans-serif">Domain: Repository パターンで CRUD を隔離</text>
+<line x1="84" y1="346" x2="84" y2="396" stroke="#fb923c99" stroke-width="2"/><polygon points="84,396 80,390 88,390" fill="#fb923c99"/>
+<rect x="60" y="396" rx="10" ry="10" width="1080" height="46" fill="#11182799" stroke="#fb923c66"/><circle cx="92" cy="420" r="11" fill="#fb923c33" stroke="#fb923c"/><text x="92" y="424" text-anchor="middle" font-size="12" fill="#fb923c" font-family="ui-monospace,monospace">3</text><text x="118" y="424" font-size="15" fill="#e2e8f0" font-family="-apple-system,Hiragino Sans,sans-serif">UI: IronTheme (スペーシング/ラジアス/シャドウ)</text>
+<line x1="84" y1="442" x2="84" y2="493" stroke="#fb923c99" stroke-width="2"/><polygon points="84,493 80,487 88,487" fill="#fb923c99"/>
+<rect x="60" y="493" rx="10" ry="10" width="1080" height="46" fill="#11182799" stroke="#fb923c66"/><circle cx="92" cy="516" r="11" fill="#fb923c33" stroke="#fb923c"/><text x="92" y="520" text-anchor="middle" font-size="12" fill="#fb923c" font-family="ui-monospace,monospace">4</text><text x="118" y="521" font-size="15" fill="#e2e8f0" font-family="-apple-system,Hiragino Sans,sans-serif">UI: Colors(ブランド25+) · Animations(spring/transition)</text>
+<line x1="84" y1="539" x2="84" y2="589" stroke="#fb923c99" stroke-width="2"/><polygon points="84,589 80,583 88,583" fill="#fb923c99"/>
+<rect x="60" y="589" rx="10" ry="10" width="1080" height="46" fill="#11182799" stroke="#fb923c66"/><circle cx="92" cy="612" r="11" fill="#fb923c33" stroke="#fb923c"/><text x="92" y="616" text-anchor="middle" font-size="12" fill="#fb923c" font-family="ui-monospace,monospace">5</text><text x="118" y="617" font-size="15" fill="#e2e8f0" font-family="-apple-system,Hiragino Sans,sans-serif">Components: SovereignButton · RuneCard · EmberProgressBar</text>
+</svg>
